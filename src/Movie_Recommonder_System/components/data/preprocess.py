@@ -6,7 +6,7 @@ import pandas as pd
 from src.Movie_Recommonder_System.components.monitering.exception import CustomException
 from src.Movie_Recommonder_System.components.monitering.logger import logging
 
-from src.Movie_Recommonder_System.components.data_preprocess.feature_extrection import load_selected_movie_columns
+from src.Movie_Recommonder_System.components.feture_engineering.feature_extrection import load_selected_movie_columns
 
 movies = load_selected_movie_columns()
 

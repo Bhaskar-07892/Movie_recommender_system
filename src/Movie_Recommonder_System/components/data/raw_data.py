@@ -66,6 +66,8 @@ def merge_movie_and_credits(
         project_root = os.path.abspath(os.path.join(current_dir, "..", "..", "..", ".."))
         csv_path = os.path.join(project_root, "csv_file")
 
+        os.makedirs(csv_path, exist_ok=True)
+
         # Load raw CSVs
         movies_df = pd.read_csv(os.path.join(csv_path, movies_raw))
         credits_df = pd.read_csv(os.path.join(csv_path, credits_raw))
@@ -83,3 +85,4 @@ def merge_movie_and_credits(
     except Exception as e:
         logging.error("Error while merging movies and credits CSV")
         raise CustomException(e, sys)
+    
