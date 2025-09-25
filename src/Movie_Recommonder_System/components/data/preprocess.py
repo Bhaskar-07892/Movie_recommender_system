@@ -104,7 +104,7 @@ movies['cast'].iloc[1]
 # %%
 Fetch_director = lambda x : [i['name'] for i in ast.literal_eval(x) if i['job'] == 'Director']
 
-logging.info("🧼 Cleaning 'crew' column...")
+logging.info("Cleaning 'crew' column...")
 movies['crew'] = movies['crew'].apply(Fetch_director)
 movies['crew'].iloc[1]
 

@@ -15,7 +15,7 @@ list_of_file = {
     f"src/{project_name}/components/data/testing_data.py" ,
     f"src/{project_name}/components/data/preprocess.py" ,
     f"src/{project_name}/components/feture_engineering/__init__.py" ,
-    f"src/{project_name}/components/feture_engineering/vetorizetion.py" ,
+    f"src/{project_name}/components/feture_engineering/vectorizetion.py" ,
     f"src/{project_name}/components/feture_engineering/feature_extrection.py" ,
     f"src/{project_name}/components/model/__init__.py" ,
     f"src/{project_name}/components/model/train.py" ,
