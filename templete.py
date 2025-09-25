@@ -9,13 +9,13 @@ project_name = "Movie_Recommonder_System"
 list_of_file = {
     f"src/{project_name}/__init__.py" , 
     f"src/{project_name}/components/__init__.py"  , 
-    f"src/{project_name}/components/data/__init__.py" , 
-    f"src/{project_name}/components/data/raw_data/__init__.py" , 
+    f"src/{project_name}/components/data/__init__.py" ,  
+    f"src/{project_name}/components/data/raw_data.py" ,  
     f"src/{project_name}/components/data/training_data.py" ,  
     f"src/{project_name}/components/data/testing_data.py" ,
     f"src/{project_name}/components/data_preprocess/__init__.py" ,
     f"src/{project_name}/components/data_preprocess/preprocess.py" ,
-    f"src/{project_name}/components/data_preprocess/build_feature.py" ,
+    f"src/{project_name}/components/data_preprocess/feature_extrection.py" ,
     f"src/{project_name}/components/model/__init__.py" ,
     f"src/{project_name}/components/model/train.py" ,
     f"src/{project_name}/components/model/recomended.py" ,
@@ -31,7 +31,9 @@ list_of_file = {
     f"src/{project_name}/tests/__init__.py" ,
     "Dockerfile" ,
     "requirement.txt" , 
-    "main.py"  
+    "main.py"  , 
+    'csv_file/tmdb_credits.csv' , 
+    'csv_file/tmdb_movies.csv'
     }
 
 for files in list_of_file :
