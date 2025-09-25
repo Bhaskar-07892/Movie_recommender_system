@@ -18,7 +18,7 @@ list_of_file = {
     f"src/{project_name}/components/data_preprocess/feature_extrection.py" ,
     f"src/{project_name}/components/model/__init__.py" ,
     f"src/{project_name}/components/model/train.py" ,
-    f"src/{project_name}/components/model/recomended.py" ,
+    f"src/{project_name}/components/model/model.pkl" ,
     f"src/{project_name}/components/model/evaluation.py" ,
     f"src/{project_name}/components/web_app/__init__.py" ,
     f"src/{project_name}/components/web_app/app.py" ,
