@@ -3,5 +3,7 @@ pandas
 scikit-learn
 ipynb
 nltk
+streamlit
+flask
 
 # -e .

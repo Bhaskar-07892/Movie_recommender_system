@@ -60,6 +60,7 @@ except Exception as e:
     raise CustomException(e, sys)
 
 # %%
+# Train a model to recommend movies
 
 def recommend_movies(movie):
     logging.info(f"Recommendation started for movie: {movie}")
@@ -80,6 +81,7 @@ def recommend_movies(movie):
             recommended = movies.iloc[i[0]].title
             print(recommended)
             logging.info(f"→ {recommended}")
+            
 
     except Exception as e:
         logging.error("Error in Movie Recommender System")
